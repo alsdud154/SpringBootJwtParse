@@ -19,7 +19,7 @@ curl --location --request POST 'http://localhost:8080/api/create-jwt' \
 }'
 ```
 
-### 3. 토큰 검증(Authorization jwt 교체)
+### 3. 토큰 검증
 
 ```
 curl --location --request GET 'http://localhost:8080/api/verify-jwt?name=%EC%A0%95%EB%AF%BC%EC%98%81&age=28' \
