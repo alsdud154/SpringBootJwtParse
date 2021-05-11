@@ -1,6 +1,6 @@
 # 스프링 부트 JWT Parse 처리
 
-### 1. jwt Parse 로직
+### 1. JWT Parse 로직
 ```
 1. jwt 토큰을 발행한다.  
 2. jwt 검증 로직은 먼저 Interceptor에서 토큰 유효성을 체크한다.
