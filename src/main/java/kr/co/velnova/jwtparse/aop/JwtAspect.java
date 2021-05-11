@@ -24,7 +24,7 @@ public class JwtAspect {
 
     // controller 패키지의 모든 메서드에 적용
     @Around("execution(* kr.co.velnova.jwtparse.controller..*(..))")
-    public Object updateLangDTO(ProceedingJoinPoint joinPoint) throws Throwable {
+    public Object updateUserId(ProceedingJoinPoint joinPoint) throws Throwable {
 
         // 메서드의 인자값 호출
         Object[] args = joinPoint.getArgs();
