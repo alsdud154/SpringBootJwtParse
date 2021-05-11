@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="자바 8 테스트" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-11T03:38:32" hostname="NOTEBOOK-OHYOUNGWOOK.localdomain" time="0.081">
+  <properties/>
+  <testcase name="Time Instant millisecond 체크" classname="kr.co.velnova.jwtparse.time.TimeTest" time="0.081"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,23 @@
+server:
+  port: 8080
+
+spring:
+
+  profiles:
+    active: local
+
+  devtools:
+    restart:
+      enabled: true
+
+jwt:
+  alg: HS256
+  typ: JWT
+  secret-key: c2lsdmVybmluZS10ZWNoLXNwcmluZy1ib290LWp3dC10dXRvcmlhbC1zZWNyZXQtc2lsdmVybmluZS10ZWNoLXNwcmluZy1ib290LWp3dC10dXRvcmlhbC1zZWNyZXQK
+
+####################### local 환경 #############################
+---
+spring:
+  config:
+    activate:
+      on-profile: local
