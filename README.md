@@ -4,7 +4,7 @@
 ```
 1. jwt 토큰을 발행한다.  
 2. jwt 검증 로직은 먼저 Interceptor에서 토큰 유효성을 체크한다.
-3. jwt 검증을 성공했으면 aop를 이용하여 인자 값이 UserDTO가 있으면 jwt payload를 파싱한다.
+3. jwt 검증을 성공했으면 aop를 이용하여 인자 값이 UserDTO가 있으면 jwt payload를 파싱하여 userID를 set 한다.
 ```
 
 ### 2. 토큰 발행
