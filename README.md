@@ -22,6 +22,6 @@ curl --location --request POST 'http://localhost:8080/api/create-jwt' \
 ### 3. 토큰 검증
 
 ```
-curl --location --request GET 'http://localhost:8080/api/verify-jwt' \
-  --header 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOjEsIm5hbWUiOiLsoJXrr7zsmIEiLCJhZ2UiOjI4LCJzdWIiOiJ1c2VyIiwiZXhwIjoxNjIwNzE5MzM3fQ.-infZgczEc3l8psftifOaSkxmkGyvokKOmc57TbfajI'
+curl --location --request GET 'http://localhost:8080/api/verify-jwt?name=%EC%A0%95%EB%AF%BC%EC%98%81&age=28' \
+--header 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VySWQiOjEsIm5hbWUiOiLsoJXrr7zsmIEiLCJhZ2UiOjI4LCJzdWIiOiJ1c2VyIiwiZXhwIjoxNjIwNzI5NTgwfQ.Y1DHU-o2YC1DgpyQAWlGfu6hP8wM_weTM7yZjuxmCCk'
 ```
